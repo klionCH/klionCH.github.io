@@ -1,0 +1,238 @@
+* {
+    text-decoration: none;
+}
+
+
+body {
+    margin-left: 0;
+    margin-top: 0;
+    font-family: 'Rockwell';
+    background-color: #728496;
+}
+
+
+#top_bar {
+    background: #D20537;
+    position: fixed;
+    width: 100%;
+    height: 120px;
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+margin-left: 2%;
+}
+#logo1 {
+   border-radius: 100%; 
+}
+
+#top_liste{
+    list-style-type: none;
+    margin-right: 20px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+
+
+
+
+#titel_bar {
+    background: #46505A;
+    display: block;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    /*margin-top: 130px;*/
+    margin-top: 120px;
+    border: 2px solid;
+    text-align: center;
+    border-color: black;
+    
+}
+h1 {
+    margin-top: 8px;
+}
+
+#center_box {
+    position:fixed;
+    top: 174px;
+    right: 0;
+    bottom: 0px;
+    left: 260px;
+    
+}
+#text_box{
+    border: 2px solid;
+    padding: 10px;
+    flex-basis: 100%;
+    margin-top: 5px;
+    
+}
+
+#left_box {
+    
+    position:fixed;
+    top: 172px;
+    width: 250px;
+    bottom: 0;
+    border: 2px solid;
+    
+}
+
+.myBox {
+    border: none;
+    padding: 0;
+    font: 24px/36px sans-serif;
+    width: 99%;
+    height: 99%;
+    overflow-y: scroll;
+    font-family: 'Rockwell';
+    scroll-behavior: smooth;
+    }
+    
+    /* Scrollbar styles */
+    ::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+    }
+    
+    ::-webkit-scrollbar-track {
+    
+    border-radius: 10px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    background: #46505A;  
+    border-radius: 10px;
+    }
+    
+    
+
+#navigation{
+    list-style-type: none;
+}
+
+#pfeil_top {
+    transform: rotate(180deg);
+    display: flex;
+}
+
+
+
+#scroll_top_bar {
+    display: flex;
+    justify-content: center;
+}
+#scroll_top {
+    background-color: #D20537;
+    width: 90%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px ;
+    margin-top: 10px;
+}
+
+a:link{
+    color: rgb(0, 0, 0);
+}
+a:visited{
+    color: black;
+}
+a:hover {
+    color: black;
+}
+a:active {
+    color:#46505A;
+}
+
+
+
+
+#link {
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    display: inline-block;
+    position: relative;
+    color: black;
+}
+#link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #D20537;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+#link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#left_list {
+    line-height: 50px;
+    text-align: left;
+    font-size: 30px;
+  
+}
+
+#lp {
+    margin-right: 20px;
+    box-shadow: inset 0 0 0 0 #46505A;
+    color: black;
+    padding: 0 .25rem;
+    font-size: 20px;
+}
+
+
+#lp {
+
+    display: inline-block;
+    position: relative;
+    color: #46505A;
+}
+#lp::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #46505A ;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+#lp:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* Tiere */
+#content {
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#steckbrief {
+    border: 2px solid;
+    width: 19%;
+    margin-top: 5px;
+}
+.brake {
+    flex-basis: 100%;
+    height: 0;
+}
+#tierart {
+    width: 100%;
+}

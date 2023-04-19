@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JurrasicPark</title>
+	<link href="CSS/style.css" rel="stylesheet">
+  <script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+  </script>
+  </head>
+  <body>
+    <div id="top_bar">
+        <a href="Startseite.html" id="logo"><img src="IMG/Zaro_Logo.png"  width="120px"></a>
+        <ul id="top_liste">
+        <li id="lp"><a href="Tiere.html">Tiere</a></li>
+        <li id="lp"><a href="Öffnungszeiten&Preise.html">Öffnungszeiten & Preise<Preise</a></li>
+        <li id="lp"><a href="Restaurant.html">Restaurant</a></li>
+        <li id="lp"><a href="karte.html">Karte</a></li>
+        <li id="lp"><a href="Impressum.html">Impressum</a></li>
+      
+
+        </ul>
+    </div>
+    <div id="titel_bar">
+      <h1>Wilkommen auf der Webseite unseres Zoos</h1>
+    </div>
+    <div id="center_box">
+      <div class="myBox">
+        <div id="section1"></div>
+        <div id="content">
+          <div id="tierart">
+            <h2>Unsere Mososaurus</h2>
+          </div>
+          <img src="IMG/Anklyosaurus/klion_A_drawing_of_an_Ankylosaurus--ar_169_ab8515e8-5c12-4530-ab89-264426aa58f3.png" width="80%">
+          <div id="steckbrief">
+            <ul>
+                <li>Alter</li>
+                <li>Grösse</li>
+            </ul>
+          </div>
+          <div class="brake"></div>
+          <div id="text_box">
+            <a>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At quasi neque recusandae atque soluta, voluptates dicta? Suscipit nemo hic a? Fugit tenetur consectetur iusto necessitatibus pariatur, quam veniam rerum laboriosam.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. At quasi neque recusandae atque soluta, voluptates dicta? Suscipit nemo hic a? Fugit tenetur consectetur iusto necessitatibus pariatur, quam veniam rerum laboriosam.
+            </a>
+          </div>
+          <img src="IMG/Anklyosaurus/klion_A_drawing_of_an_Ankylosaurus--ar_169_e21c3a4c-f700-42c0-af40-f80a056c7c94.png" width="80%">
+          <div id="steckbrief">
+            <ul>
+                <li>Alter</li>
+                <li>Grösse</li>
+            </ul>
+          </div>
+          <div class="brake"></div>
+          <div id="text_box">
+            <a>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At quasi neque recusandae atque soluta, voluptates dicta? Suscipit nemo hic a? Fugit tenetur consectetur iusto necessitatibus pariatur, quam veniam rerum laboriosam.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. At quasi neque recusandae atque soluta, voluptates dicta? Suscipit nemo hic a? Fugit tenetur consectetur iusto necessitatibus pariatur, quam veniam rerum laboriosam.
+            </a>
+          </div>
+
+        </div>
+        <div id="scroll_top_bar">
+          <a href="#section1" id="scroll_top">
+            <div>nach oben</div>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+    <div id="left_box">
+      <ul id="left_list">
+        <li id="navigation"><a id="link" href="Tier_Allosaurus.html">Allosaurus</a></li>
+        <li id="navigation"><a id="link" href="Tier_Ankylosaurus.html">Anklyosaurus</a></li>
+        <li id="navigation"><a id="link" href="Tier_Brachiosaurus.html">Brachiosaurus</a></li>
+        <li id="navigation"><a id="link" href="Tier_Coelophysis.html">Coelophysis</a></li>
+        <li id="navigation"><a id="link" href="Tier_Mososaurus.html">Mososaurus</a></li>
+        <li id="navigation"><a id="link" href="Tier_Rex.html">Rex</a></li>
+        <li id="navigation"><a id="link" href="Tier_Spinosaurus.html">Spinosaurus</a></li>
+        <li id="navigation"><a id="link" href="Tier_Stegosaurus.html">Stegosaurus</a></li>
+        <li id="navigation"><a id="link" href="Tier_Triceratops.html">Triceratops</a></li>
+        <li id="navigation"><a id="link" href="Tier_Velociraptor.html">Velociraptor</a></li>
+      </ul>
+    </div>
+
+  </body>
+</html>

@@ -7,31 +7,73 @@
 	<link href="CSS/style.css" rel="stylesheet">
   </head>
   <body>
-    <div id="top_bar">
-      <a href="index.html" id="logo"><img src="IMG/logo4.png" id="logo1"  width="200px"></a>
-        <ul id="top_liste">
-        <li id="lp"><a href="Tier_Allosaurus.html">Tiere</a></li>
-        <li id="lp"><a href="Öffnungszeiten&Preise.html">Öffnungszeiten & Preise<Preise</a></li>
-        <li id="lp"><a href="Restaurant.html">Restaurant</a></li>
-        <li id="lp"><a href="karte.html">Karte</a></li>
-        <li id="lp"><a href="Impressum.html">Rechtliches</a></li>
-      
+    <header class="header">
+      <nav>
+        <div class="logo">
+          <a href="index.html" id="logo"><img src="IMG/logo4.png" id="logo1"  width="200px"></a>
+        </div>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <ul class="menu">
+          <li id="lp"><a href="Tier_Allosaurus.html">Tiere</a></li>
+          <li id="lp"><a href="Öffnungszeiten&Preise.html">Öffnungszeiten & Preise</a></li>
+          <li id="lp"><a href="Restaurant.html">Restaurant</a></li>
+          <li id="lp"><a href="karte.html">Karte</a></li>
+          <li id="lp"><a href="Impressum.html">Rechtliches</a></li>
 
         </ul>
-    </div>
+      </nav>
+    </header>
     <div id="titel_bar">
       <h1>Öffnungszeiten & Preise</h1>
     </div>
     <div id="center_box">
       <div class="myBox">
         <div id="section1"></div>
-        <h2></h2>
         <img src="IMG/ÖffnungszeitUndPreise.png" width="100%" id="section1">
         <div id="section2"></div>
-        <img src="IMG/Öffnungszeiten.png" width="100%" alt="">
+        <table class="comicGreen">
+          <h2>Öffnungszeiten</h2>
+          <tbody>
+           <tr>
+             <td>Montag</td><td id="rot">Geschlossen</td></tr>
+           <tr>
+             <td>Dienstag</td><td>09:00 - 17:00</td></tr>
+           <tr>
+             <td>Mittwoch</td><td>09:00 - 17:00</td></tr>
+           <tr>
+             <td>Donnerstag</td><td>09:00 - 17:00</td></tr>
+           <tr>
+              <td>Freitag</td><td>09:00 - 17:00</td></tr>
+           <tr>
+             <td>Samstag</td><td>09:00 - 17:00</td></tr>
+           <tr>
+             <td>Sontag</td><td>09:00 - 17:00</td></tr>
+          </tbody>
+          </tr>
+        </table>
         <div id="section3"></div>
-        <img src="ImG/Preise.png" width="100%" alt="">
-        <div id="section4"></div>
+        <table class="comicGreen">
+          <H2>Preise</H2>
+          <tbody>
+          <tr>
+          <td>Erwachsene (ab 21)</td>
+          <td>31.-</td>
+          </tr>
+          <tr>
+          <td>Jugentliche (16-20)</td>
+          <td>26.-</td>
+          </tr>
+          <tr>
+          <td>Kinder (6-15)</td>
+          <td>17.-</td>
+          </tr>
+          <tr>
+          <td>Kinder unter 6 Jahren</td>
+          <td>gratis</td>
+          </tr>
+          </tbody>
+          </table>
         <div id="scroll_top_bar">
           <a href="#section1" id="scroll_top">
             <div>nach oben</div>
@@ -47,6 +89,12 @@
         <li id="navigation"><a id="link" href="#section3">Preise</a></li>
       </ul>
     </div>
-
+    <div>
+      <ul id="untere_navigation">
+        <li id="navigation"><a id="link" href="#section1">Start</a></li>
+        <li id="navigation"><a id="link" href="#section2">Öffnungszeiten</a></li>
+        <li id="navigation"><a id="link" href="#section3">Preise</a></li>
+      </ul>
+    </div>
   </body>
 </html>

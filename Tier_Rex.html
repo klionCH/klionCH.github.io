@@ -7,16 +7,22 @@
 	<link href="CSS/style.css" rel="stylesheet">
   </head>
   <body>
-    <div id="top_bar">
-      <a href="index.html" id="logo"><img src="IMG/logo4.png" id="logo1"  width="200px"></a>
-      <ul id="top_liste">
-        <li id="lp"><a href="Tier_Allosaurus.html">Tiere</a></li>
-        <li id="lp"><a href="Öffnungszeiten&Preise.html">Öffnungszeiten & Preise<Preise</a></li>
-        <li id="lp"><a href="Restaurant.html">Restaurante</a></li>
-        <li id="lp"><a href="karte.html">Karte</a></li>
-        <li id="lp"><a href="Impressum.html">Rechtliches</a></li>
-      </ul>
-    </div>
+    <header class="header">
+      <nav>
+        <div class="logo">
+          <a href="index.html" id="logo"><img src="IMG/logo4.png" id="logo1"  width="200px"></a>
+        </div>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <ul class="menu">
+          <li id="lp"><a href="Tier_Allosaurus.html">Tiere</a></li>
+          <li id="lp"><a href="Öffnungszeiten&Preise.html">Öffnungszeiten & Preise</a></li>
+          <li id="lp"><a href="Restaurant.html">Restaurant</a></li>
+          <li id="lp"><a href="karte.html">Karte</a></li>
+          <li id="lp"><a href="Impressum.html">Rechtliches</a></li>
+        </ul>
+      </nav>
+    </header>
     <div id="titel_bar">
       <h1>Unsere Tiere </h1>
     </div>
@@ -27,7 +33,7 @@
           <div id="tierart">
             <h2>Unsere Rexe</h2>
           </div>
-          <img src="IMG/Rex/klion_A_Photo_realistic_Tyrannosaurus_Rex_Ultra_detailed_4k_rea_84d60502-3bf2-4d21-a60d-39e69031a982.png" width="80%">
+          <img id="tier" src="IMG/Rex/klion_A_Photo_realistic_Tyrannosaurus_Rex_Ultra_detailed_4k_rea_84d60502-3bf2-4d21-a60d-39e69031a982.png" width="80%">
           <div id="steckbrief">
             <ul>
               <li>Name: Brennon</li>
@@ -50,7 +56,7 @@
           </div>
           <div id="hr"></div>
           <br>
-          <img src="IMG/Rex/klion_A_Photo_realistic_Tyrannosaurus_Rex_Ultra_detailed_4k_rea_b4e8fb2a-fb40-4d6a-86f9-ae600b7b43e4.png" width="80%">
+          <img id="tier" src="IMG/Rex/klion_A_Photo_realistic_Tyrannosaurus_Rex_Ultra_detailed_4k_rea_b4e8fb2a-fb40-4d6a-86f9-ae600b7b43e4.png" width="80%">
           <div id="steckbrief">
             <ul>
               <li>Name: Charlotta</li>
@@ -95,6 +101,17 @@
         <li id="navigation"><a id="link" href="Tier_Velociraptor.html">Velociraptor</a></li>
       </ul>
     </div>
-
+    <div id="untere_navigation">
+      <a id="link_bild" href="Tier_Allosaurus.html"><img src="IMG/Allosaurus/Allosaurus.png" alt="" id="bild_nav"></a>
+      <a id="link_bild" href="Tier_Ankylosaurus.html"><img src="IMG/Anklyosaurus/klion_A_drawing_of_an_Ankylosaurus--ar_169_ab8515e8-5c12-4530-ab89-264426aa58f3.png" alt="" id="bild_nav"></a>
+      <a id="link_bild" href="Tier_Brachiosaurus.html"><img src="IMG/Brachiosaurus/klion_A_Photo_realistic_Brachiosaurus_Ultra_detailed_4k_real_po_7bbdf82d-632f-461c-b3b2-d8c9ddc8d926.png" alt="" id="bild_nav"></a>
+      <a id="link_bild" href="Tier_Coelophysis.html"><img src="IMG/Coelophysis/klion_A_real_drawing_of_a_coelophysis_ea4dccfb-139a-4fcd-b268-1c1d6a9f7503.png" alt="" id="bild_nav"></a>
+      <a id="link_bild" href="Tier_Mososaurus.html"><img src="IMG/Mososaurus/klion_A_Photo_realistic_Mosasaurus_Ultra_detailed_4k_real_power_d478ec1f-d30e-42bc-bef5-a78eba732dd7.png" alt="" id="bild_nav"></a>
+      <a id="link_bild" href="Tier_Rex.html"><img src="IMG/Rex/klion_A_Photo_realistic_Tyrannosaurus_Rex_Ultra_detailed_4k_rea_84d60502-3bf2-4d21-a60d-39e69031a982.png" alt="" id="bild_nav"></a>
+      <a id="link_bild" href="Tier_Spinosaurus.html"><img src="IMG/Spinosaurus/klion_A_real_drawing_of_a_Spinosaurus_b5008a90-c214-4980-afa9-43370d67a7ca.png" alt="" id="bild_nav"></a>
+      <a id="link_bild" href="Tier_Stegosaurus.html"><img src="IMG/Stegosaurus/klion_A_Photo_realistic_stegosaurus_Ultra_detailed_4k_real_powe_9573e0a5-462a-4f27-b8c2-3701084000b3.png" alt="" id="bild_nav"></a>
+      <a id="link_bild" href="Tier_Triceratops.html"><img src="IMG/Triceratops/klion_A_Photo_realistic_triceratops_Ultra_detailed_4k_real_powe_68d32f54-1e56-41e4-976c-2a31084f1006.png" alt="" id="bild_nav"></a>
+      <a id="link_bild" href="Tier_Velociraptor.html"><img src="IMG/Velociraptor/klion_A_Photo_realistic_Velociraptor_Ultra_detailed_4k_real_pow_8b012030-b24c-45e4-89cc-58dccf24deac.png" alt="" id="bild_nav"></a>
+    </div>
   </body>
 </html>

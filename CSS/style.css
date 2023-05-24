@@ -16,7 +16,7 @@ body {
     flex-wrap: wrap;
     display: flex;
 }
-#lp {
+.lp {
     margin-right: 20px;
     box-shadow: inset 0 0 0 0 #728744;
     color: black;
@@ -26,7 +26,7 @@ body {
     position: relative;
     color: #728744;
 }
-#lp::after {
+.lp::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -38,7 +38,7 @@ body {
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
-#lp:hover::after {
+.lp:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
@@ -243,7 +243,7 @@ a:active {
   }
   
 
-  #lp {
+  .lp {
     margin-right: 20px;
     box-shadow: inset 0 0 0 0 #728744;
     color: black;
@@ -253,7 +253,7 @@ a:active {
     position: relative;
     color: #728744;
 }
-#lp::after {
+.lp::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -265,7 +265,7 @@ a:active {
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
-#lp:hover::after {
+.lp:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }

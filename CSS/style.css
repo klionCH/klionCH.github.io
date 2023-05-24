@@ -114,7 +114,7 @@ h1 {
     background: #46505A;  
     border-radius: 10px;
     }
-#navigation{
+.navigation{
     list-style-type: none;
 }
 #scroll_top_bar {
@@ -141,14 +141,14 @@ link:hover {
 a:active {
     color:#46505A;
 }
-#link {
+.link {
     margin: 0 -.25rem;
     padding: 0 .25rem;
     display: inline-block;
     position: relative;
     color: black;
 }
-#link::after {
+.link::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -160,7 +160,7 @@ a:active {
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
-#link:hover::after {
+.link:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
@@ -375,7 +375,7 @@ a:active {
         transition: 0.2s all ease-in-out;
         color: #F1F0C5;
     }
-    #link {
+    .link {
         margin: 0 -.25rem;
         padding: 0 .25rem;
         display: inline-block;
@@ -388,7 +388,7 @@ a:active {
             width: 30px;
             height: 30px;
         }
-        #link_bild {
+        .link_bild {
             margin: 0 -.25rem;
             display: inline-block;
             position: relative;
@@ -407,7 +407,7 @@ a:active {
     #titel_bar {
         font-size: 15px;
     }
-    #link {
+    .link {
         margin: 0 -.25rem;
         padding: 0 .25rem;
         display: inline-block;
@@ -429,7 +429,7 @@ a:active {
     #titel_bar {
         font-size: 13px;
     }
-    #link{
+    .link{
         font-size: 12px;
     }
     #tier {

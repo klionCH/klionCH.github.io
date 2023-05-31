@@ -173,7 +173,7 @@ a:active {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-#steckbrief {
+.steckbrief {
     width: 19%;
     margin-top: 5px;
     line-height: 60px;
@@ -384,7 +384,7 @@ a:active {
         border: #F1F0C5 solid;
         border-radius: 7px;
         }
-        #bild_nav {
+        .bild_nav {
             width: 30px;
             height: 30px;
         }
@@ -432,10 +432,10 @@ a:active {
     .link{
         font-size: 12px;
     }
-    #tier {
+    .tier {
         width: 100%;
     }
-    #steckbrief {
+    .steckbrief {
         width: 100%;
         margin-top: 5px;
         line-height: 40px;
